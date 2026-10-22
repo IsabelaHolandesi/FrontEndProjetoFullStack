@@ -1,0 +1,107 @@
+border {
+    box-sizing: border-box;
+}
+
+body{
+margin: 0;
+padding: 30px 16px;
+font-family: Arial, sans-serif;
+background: rgb(220, 236, 242);
+color: rgb(0, 0, 0);
+}
+
+.container{
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 28px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px #00000012;
+}
+
+.cabecalho, .acoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    flex-wrap: wrap;
+ }
+
+ h1{
+    margin-top: 0;
+ }
+
+ label{
+    display:block;
+    margin:16px 0 6px;
+    font-weight: bold;
+ }
+
+ input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #c5cbd4;
+    border-radius: 6px;
+    font-size: 16px;
+ }
+
+ button, .botao{
+    display: inline-block;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    background: #0c59de;
+    color: white;
+    font:inherit;
+    text-decoration: none;
+    cursor: pointer;
+ }
+
+ button:hover, .botao:hover{
+    opacity: 0.9;
+ }
+
+ .secundario{
+    background:626c7b;
+ }
+
+ .perigo{
+    background: #ff071f;
+ }
+
+ .acoes{
+    justify-content: flex-start;
+    margin-top: 20px;
+ }
+
+ .tabela-container{
+    overflow-x: auto;
+ }
+
+ table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 16px;
+ }
+
+ th, td{
+    padding: 12px;
+    border-collapse: collapse;
+    margin-top: 16px;
+ }
+
+ th{
+    background: #eef2fa;
+ }
+
+.acoes-tabela{
+display: flex;
+gap: 8px;
+flex-wrap: wrap;
+}
+
+#mensagem {
+min-height: 2epx;
+color: #a51f2c;
+}
+
